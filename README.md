@@ -4,27 +4,15 @@ CVPR2021最新信息及已接收论文/代码(持续更新)
 开会时间：2021年6月19日-6月25日<br>
 论文接收公布时间：2021年2月28日<br>
 
+[TOC]
 
+## 机器人
 
-* 机器人
-  
-  * [Visual Room Rearrangement](https://arxiv.org/abs/2103.16544)<br>:open_mouth:oral:house:[project](https://ai2thor.allenai.org/rearrangement/):tv:[video](https://www.youtube.com/watch?v=1APxaOC9U-A)
-* 目标检测
-  * [Exploring intermediate representation for monocular vehicle pose estimation](https://arxiv.org/abs/2011.08464)<br>:star:[code](https://github.com/Nicholasli1995/EgoNet)
-  * [Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16470)<br>:star:[code](https://github.com/fudan-zvg/DDMP)<br>论文公开
-  * [Data-Uncertainty Guided Multi-Phase Learning for Semi-Supervised Object Detection](https://arxiv.org/abs/2103.16368)
-  * [Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16237)<br>
+* [Visual Room Rearrangement](https://arxiv.org/abs/2103.16544)<br>:open_mouth:oral:house:[project](https://ai2thor.allenai.org/rearrangement/):tv:[video](https://www.youtube.com/watch?v=1APxaOC9U-A)
 
-* 机器人
-  
-  * [Generalizing to the Open World: Deep Visual Odometry with Online Adaptation](https://arxiv.org/abs/2103.15279)
-* 目标检测
-  
-  * [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/abs/2103.15297)<br>:star:[code](https://github.com/tusimple/LiDAR_RCNN)
-  
-  
+* [Generalizing to the Open World: Deep Visual Odometry with Online Adaptation](https://arxiv.org/abs/2103.15279)
 
-## 33.6D位姿估计
+## 6D位姿估计
 
 - [FFB6D: A Full Flow Bidirectional Fusion Network for 6D Pose Estimation](https://arxiv.org/abs/2103.02242)<br>:star:[code](https://github.com/ethnhe/FFB6D)<br>
 
@@ -32,29 +20,23 @@ CVPR2021最新信息及已接收论文/代码(持续更新)
 
 - [FS-Net: Fast Shape-based Network for Category-Level 6D Object Pose Estimation with Decoupled Rotation Mechanism](https://arxiv.org/abs/2103.07054)<br>:open_mouth:oral:star:[code](https://github.com/DC1991/FS-Net)
 
-  
-
-## 28.密集预测
+## 密集预测
 
 - [Densely connected multidilated convolutional networks for dense prediction tasks](https://arxiv.org/abs/2011.11844)<br>提出的D3Net在语义分割&音乐源分离任务上的表现优于SOTA网络<br>
-
-
-
-
 
 * 视频语言学习（video-and-language learning）
   * [Less is More: CLIPBERT for Video-and-Language Learning via Sparse Sampling](https://arxiv.org/pdf/2102.06183.pdf)<br>:open_mouth:oral:star:[code](https://github.com/jayleicn/ClipBERT)<br>
 
-## 25.三维视觉
+## 三维视觉
 
 - 深度估计
 * * [PLADE-Net: Towards Pixel-Level Accuracy for Self-Supervised Single-View Depth Estimation with Neural Positional Encoding and Distilled Matting Loss](https://arxiv.org/abs/2103.07362)
   * [Beyond Image to Depth: Improving Depth Prediction using Echoes](https://arxiv.org/abs/2103.08468)<br>:star:[code](https://github.com/krantiparida/beyond-image-to-depth):house:[project](https://krantiparida.github.io/projects/bimgdepth.html)
   * [Learning High Fidelity Depths of Dressed Humans by Watching Social Media Dance Videos](https://arxiv.org/abs/2103.03319)<br>:open_mouth:oral:star:[code](https://github.com/yasaminjafarian/HDNet_TikTok):house:[project](https://www.yasamin.page/hdnet_tiktok):tv:[video](https://youtu.be/EFJ8WXdKghs
 
-## 21.Transformer 
+## Transformer 
 
-- [Transformer Interpretability Beyond Attention Visualization](https://arxiv.org/pdf/2012.09838.pdf)<br>:star:[code](https://github.com/hila-chefer/Transformer-Explainability)<br> 
+- [Transformer Interpretability Beyond Attention Visualization](https://arxiv.org/pdf/2012.09838.pdf)<br>:star:[code](https://github.com/hila-chefer/Transformer-Explainability)<br>
 - [MIST: Multiple Instance Spatial Transformer Network](https://arxiv.org/abs/1811.10725)<br>试图从热图中进行可微的top-K选择(MIST)（目前在自然图像上也有了一些结果；) 用它可以在没有任何定位监督的情况下进行检测和分类（并不是它唯一能做的事情!）
 * 动作识别检测
   
@@ -81,9 +63,10 @@ CVPR2021最新信息及已接收论文/代码(持续更新)
   
   * [Scaling Local Self-Attention For Parameter Efficient Visual Backbones](https://arxiv.org/abs/2103.12731)<br>:open_mouth:oral
 
-## 9.目标跟踪
+## 目标跟踪
 
 * [Track to Detect and Segment: An Online Multi-Object Tracker](https://arxiv.org/abs/2103.08808)<br>:star:[code](https://github.com/JialianW/TraDeS):house:[project](https://jialianwu.com/projects/TraDeS.html):tv:[video](https://youtu.be/oGNtSFHRZJA)<br>TraDeS ：CVPR 2021多目标跟踪算法，改进了目前联合检测与跟踪的在线方法，使用跟踪线索辅助检测，在多个数据集实现了大幅精度提升，作者来自纽约州立大学。代码已开源。
+
 * 抠图
 
 * * [Real-Time High Resolution Background Matting](https://arxiv.org/abs/2012.07810)<br>:open_mouth:oral:star:[code](https://github.com/PeterL1n/BackgroundMattingV2):house:[project](https://grail.cs.washington.edu/projects/background-matting-v2/):tv:[video](https://youtu.be/oMfPTeYDF9g)<br>最新开源抠图技术，实时快速高分辨率，4k(30fps)、现代GPU（60fps）<br>解读：[单块GPU实现4K分辨率每秒30帧，华盛顿大学实时视频抠图再升级，毛发细节到位](https://mp.weixin.qq.com/s/0OJR3Y5cPfeHhdTdI3BgEA)<br>[最新开源抠图技术，实时快速高分辨率，4k(30fps)、现代GPU（60fps）](https://zhuanlan.zhihu.com/p/337028483)
@@ -91,8 +74,15 @@ CVPR2021最新信息及已接收论文/代码(持续更新)
     雷达分割
   
   * [Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation](https://arxiv.org/abs/2011.10033)<br>:open_mouth:oral:star:[code](https://github.com/xinge008/Cylinder3D)<br>在 SemanticKITTI 榜单排名第一（until CVPR DDL），在 nuScenes 中获得 SOTA，并对其他基于激光雷达的任务保持了良好的泛化能力，包括激光雷达全景分割和激光雷达三维检测，其中就基于此工作，在 SemanticKITTI 全景分割榜单也排名第一。
-  
-* 7.目标检测
+
+## 目标检测
+
+- [Exploring intermediate representation for monocular vehicle pose estimation](https://arxiv.org/abs/2011.08464)<br>:star:[code](https://github.com/Nicholasli1995/EgoNet)
+- [Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16470)<br>:star:[code](https://github.com/fudan-zvg/DDMP)<br>论文公开
+- [Data-Uncertainty Guided Multi-Phase Learning for Semi-Supervised Object Detection](https://arxiv.org/abs/2103.16368)
+- [Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/abs/2103.16237)<br>
+
+- [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/abs/2103.15297)<br>:star:[code](https://github.com/tusimple/LiDAR_RCNN)
 
 - [Depth from Camera Motion and Object Detection](https://arxiv.org/abs/2103.01468)<br>:star:[github](https://github.com/griffbr/ODMD):tv:[video](https://www.youtube.com/watch?v=GruhbdJ2l7k)<br>通过使用“普通手机摄像头运动+目标检测的包围框”数据，设计RNN网络实现了达到最先进精度的目标深度估计。<br>
 - [Towards Open World Object Detection](https://arxiv.org/abs/2103.02603)<br>:open_mouth:oral:star:[code](https://github.com/JosephKJ/OWOD)<br>
@@ -117,9 +107,7 @@ CVPR2021最新信息及已接收论文/代码(持续更新)
 
 
 
-- 
-
-## 4.自/半/弱监督学习
+## 自/半/弱监督学习
 
 * 弱监督
   * [Weakly Supervised Learning of Rigid 3D Scene Flow](https://arxiv.org/pdf/2102.08945.pdf)<br>:star:[code](https://arxiv.org/pdf/2102.08945.pdf):house:[project](https://3dsceneflow.github.io/)<br>
@@ -129,7 +117,7 @@ CVPR2021最新信息及已接收论文/代码(持续更新)
 * 自监督
   * [Self-supervised Geometric Perception](https://arxiv.org/abs/2103.03114)<br>:open_mouth:oral:star:[code](https://github.com/theNded/SGP)<br>作者称 SGP 是第一个在几何感知中进行特征学习的通用框架，不需要任何来自 ground-truth 几何标签的监督。SGP以EM方式运行，它迭代执行几何模型的鲁棒估计以生成伪标签，并在噪声伪标签的监督下进行特征学习。将 SGP 应用于相机姿势估计和点云配准，并证明在大规模真实数据集中，SGP 的性能等同于甚至优于监督的权威。
 
-## 3.点云
+## 点云
 
 - [Style-based Point Generator with Adversarial Rendering for Point Cloud Completion](https://arxiv.org/abs/2103.02535)<br>
 - [MultiBodySync: Multi-Body Segmentation and Motion Estimation via 3D Scan Synchronization](https://arxiv.org/abs/2101.06605)<br>:open_mouth:oral:star:[code](https://github.com/huangjh-pub/multibody-sync)
@@ -146,22 +134,18 @@ CVPR2021最新信息及已接收论文/代码(持续更新)
 * 3D点云
   * [Diffusion Probabilistic Models for 3D Point Cloud Generation](https://arxiv.org/abs/2103.01458)<br>:open_mouth:oral:star:[code](https://github.com/luost26/diffusion-point-cloud)<br>
 
-## 1.未分类
+## 未分类
 
 - Inverting the Inherence of Convolution for Visual Recognition<br>
 - UC2: Universal Cross-lingual Cross-modal Vision-and-Language Pretraining<br>
 - [Neural Geometric Level of Detail:Real-time Rendering with Implicit 3D Surfaces](https://arxiv.org/abs/2101.10994)<br>:open_mouth:Oral:star:[code](https://github.com/nv-tlabs/nglod):house:[project](https://nv-tlabs.github.io/nglod/)<br>
 - [PatchmatchNet: Learned Multi-View Patchmatch Stereo](https://arxiv.org/abs/2012.01411)<br>:open_mouth:oral:star:[code](https://github.com/FangjinhuaWang/PatchmatchNet)
 
-* [PGT: A Progressive Method for Training Models on Long Videos](https://arxiv.org/abs/2103.11313)<br>:open_mouth:oral:star:[code](https://github.com/BoPang1996/PGT)
-
-  
+* [PGT: A Progressive Method for Training Models on Long Videos](https://arxiv.org/abs/2103.11313)<br>:open_mouth:oral:star:[code](https://github.com/BoPang1996/PGT) 
 
 ## Workshop 征稿ing
 
  * [Transport Challenge with ThreeDWorld](http://tdw-transport.csail.mit.edu/)<br>:tv:[video](https://youtu.be/WRx41xsB_wo):warning:6月1截止
    * 论文：[The ThreeDWorld Transport Challenge: A Visually Guided Task-and-Motion Planning Benchmark for Physically Realistic Embodied AI](https://arxiv.org/abs/2103.14025)
-
-- [Visual Perception for Navigation in Human Environments](https://jrdb.stanford.edu/workshops/jrdb-cvpr21)<br>第二届人类环境导航视觉感知征稿 :warning:4月15截止
 
 
